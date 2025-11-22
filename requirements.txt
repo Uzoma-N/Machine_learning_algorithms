@@ -1,0 +1,13 @@
+# Baseline requirements for the Machine_learning_algorithms repo
+# Adjust versions as needed for your OS/GPU setup (TensorFlow / PyTorch)
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.2
+matplotlib>=3.6
+seaborn>=0.12
+tensorflow==2.20.0
+torch
+transformers
+Pillow
+tqdm
+joblib

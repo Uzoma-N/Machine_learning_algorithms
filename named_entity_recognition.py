@@ -144,5 +144,5 @@ results['with_add_lstm'] = train_model(train_tokens, np.array(train_tags), model
 
 # to test the model
 nlp = spacy.load('en_core_web_sm')
-text = nlp('Hi, My name is Uzoma Nwiwu \n I am from Nigeria \n I am a graduate looking for jobs')
+text = nlp('Jordan arrived in Jordan to attend a meeting with Apple Inc. representatives.')
 displacy.render(text, style = 'ent', jupyter=True)
